@@ -1,6 +1,7 @@
 
 
 
+
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -11,17 +12,17 @@
       
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.8">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
     
     
       
-        <title>Schema Zuständigkeiten - NFDI4SD</title>
+        <title>Schema Zuständigkeiten - NFDI Small Discplines</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.01afc2df.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.077507d7.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.83bccb1f.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ff0a5ce4.min.css">
       
       
         
@@ -33,22 +34,24 @@
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=:300,400,400i,700%7C&display=fallback">
-        <style>body,input{font-family:"",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
       
     
     
     
-      <link rel="stylesheet" href="../../css/ansi-colours.css">
     
-      <link rel="stylesheet" href="../../css/jupyter-cells.css">
     
-      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    
+    
     
     
       
     
     
+    <link rel="stylesheet" href="../../stylesheets/extra.css">
+ 
   </head>
   
   
@@ -67,15 +70,31 @@
     <div data-md-component="announce">
       
     </div>
+    <div id="wrap-header-nf"> 
+      <div id="slanting-edge-nf">
+        <div id="slanting-edge-content-nf">
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="../.." title="NFDI4SD" class="md-header-nav__button md-logo" aria-label="NFDI4SD">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+    <!-- <a href="../.." title="NFDI Small Discplines" class="md-header-nav__button md-logo" aria-label="NFDI Small Discplines">
+      <svg xmlns="http://www.w3.org/2000/svg" width="160"   viewBox="0 0 500 82">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+        fill: #e8e100;
+        font-family: Roboto;
+        font-weight: 700;
+      }
 
-    </a>
+      .cls-2 {
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <text id="NFDI_Small_Disciplines" data-name="NFDI Small Disciplines" class="cls-1" x="11.609" y="54.602">NFDI<tspan class="cls-2"> Small Disciplines</tspan></text>
+</svg>
+    </a> -->
     <label class="md-header-nav__button md-icon" for="__drawer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
     </label>
@@ -83,7 +102,24 @@
       
         <div class="md-header-nav__ellipsis">
           <span class="md-header-nav__topic md-ellipsis">
-            NFDI4SD
+            <svg xmlns="http://www.w3.org/2000/svg" width="300"   viewBox="0 0 500 82">
+              <defs>
+                <style>
+                  .cls-1 {
+                    font-size: 48px;
+                    fill: #e8e100;
+                    font-family: Roboto;
+                    font-weight: 700;
+                  }
+            
+                  .cls-2 {
+                    font-weight: 300;
+                  }
+                </style>
+              </defs>
+              <text id="NFDI_Small_Disciplines" data-name="NFDI Small Disciplines" class="cls-1" x="11.609" y="54.602">NFDI<tspan class="cls-2"> Small Disciplines</tspan></text>
+            </svg>
+             
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
@@ -127,8 +163,9 @@
     
   </nav>
 </header>
-    
-    <div class="md-container" data-md-component="container">
+     
+  
+    <div class="md-container-nf" data-md-component="container-nf">
       
         
       
@@ -221,8 +258,14 @@
     </ul>
   </div>
 </nav>
+ 
         
       
+   
+    </div> </div>
+  </div>
+  </div>
+  <div class="md-container" data-md-component="container">
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
@@ -232,13 +275,26 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="NFDI4SD" class="md-nav__button md-logo" aria-label="NFDI4SD">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+    <a href="../.." title="NFDI Small Discplines" class="md-nav__button md-logo" aria-label="NFDI Small Discplines">
+      <svg xmlns="http://www.w3.org/2000/svg" width="160"   viewBox="0 0 500 82">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+        fill: #e8e100;
+        font-family: Roboto;
+        font-weight: 700;
+      }
 
+      .cls-2 {
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <text id="NFDI_Small_Disciplines" data-name="NFDI Small Disciplines" class="cls-1" x="11.609" y="54.602">NFDI<tspan class="cls-2"> Small Disciplines</tspan></text>
+</svg>
     </a>
-    NFDI4SD
+    NFDI Small Discplines
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -254,15 +310,11 @@
     
     <label class="md-nav__link" for="nav-1">
       Research Data
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Research Data" data-md-level="1">
       <label class="md-nav__title" for="nav-1">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Research Data
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -332,15 +384,11 @@
     
     <label class="md-nav__link" for="nav-2">
       NFDI4SD Services
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="NFDI4SD Services" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         NFDI4SD Services
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -410,15 +458,11 @@
     
     <label class="md-nav__link" for="nav-3">
       Research Organisation
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Research Organisation" data-md-level="1">
       <label class="md-nav__title" for="nav-3">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Research Organisation
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -488,15 +532,11 @@
     
     <label class="md-nav__link" for="nav-4">
       Use Cases
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Use Cases" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Use Cases
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -650,15 +690,11 @@
     
     <label class="md-nav__link" for="nav-5">
       Governance
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Governance" data-md-level="1">
       <label class="md-nav__title" for="nav-5">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Governance
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -704,15 +740,11 @@
     
     <label class="md-nav__link" for="nav-6">
       Impressum
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Impressum" data-md-level="1">
       <label class="md-nav__title" for="nav-6">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Impressum
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -821,20 +853,10 @@
   </div>
 </footer>
       
-    </div>
-    
-      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
-      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+    </div> 
+    <script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
-      <script>
-        app = initialize({
-          base: "../..",
-          features: {"tabs": true},
-          search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
-          }, typeof search !== "undefined" && search)
-        })
-      </script>
+    
       
     
   </body>
