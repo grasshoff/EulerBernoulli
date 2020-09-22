@@ -31,6 +31,9 @@
   -webkit-transform: rotate( 2.4deg);
       transform: rotate( 2.4deg);
 }
+#slanting-edge-content-nf > .md-tabs.md-tabs--active{
+  margin-top: 13px;
+}
 .md-header{
   background-color: transparent;
   position: relative;
@@ -49,11 +52,14 @@
 }
 .md-tabs{
  background-color: transparent;
- 
-
 }
 .md-container{
   margin-top: 150px;
+}
+.md-container >.md-tabs.md-tabs--active{
+  display: none;
+  visibility: hidden;
+  height: 0;
 }
 .md-container-nf{
   padding-top: 7px;
