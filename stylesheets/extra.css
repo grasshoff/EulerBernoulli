@@ -1,6 +1,6 @@
 [data-md-color-scheme="netfrei"] {
-  --md-primary-fg-color:       #04113b;
-  
+  --md-primary-fg-color: #012559;
+   --md-footer-bg-color: #012559;
 }
 .no-js .md-search{
   display: block;
@@ -22,7 +22,7 @@
       padding-top: 40px;
       padding-left: 0;
       color: #e8e100 ;
-      background-image: radial-gradient(at top,#04113b , #04113b );
+      background-image: radial-gradient(at top,#012559 , #012559 );
       -webkit-transform: rotate(-2.4deg);
       transform: rotate(-2.4deg);
    
@@ -85,6 +85,10 @@
 .md-nav--primary .md-nav__title[for=__drawer] .md-nav__button {
   padding-top: 0.5em;
 }
+
+ .md-sidebar__scrollwrap {
+  margin: 35% .2rem 0.2rem;
+} 
 @media (max-width:1219px){
   .md-header-nav__title {
     padding-left:  1rem;
