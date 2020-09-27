@@ -68,11 +68,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#nfdi4sd-standards-companion" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -424,8 +419,6 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
-    
     
     <a href="./" title="Paratext" class="md-nav__link md-nav__link--active">
       Paratext
@@ -683,21 +676,6 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -706,6 +684,8 @@
                 
                   
                 
+                
+                  <h1>Paratext</h1>
                 
                 <p><img alt="" src="../assets/NFDI4SD_paratext.png" /></p>
 <h2>Metadata</h2>
@@ -720,14 +700,14 @@
 <ul>
 <li><a href="https://json-ld.org/">JSON-LD</a>, which is a lightweight Linked Data format that allows a standardised API for complex, hierarchical data structures, is the best format for encoding paratext data. Its standards are ideal for an interoperable API, Representational State Transfer (REST) web services and a web interface.<sup id="fnref:ld"><a class="footnote-ref" href="#fn:ld">3</a></sup> Transformations into other formats and standards are also planned.</li>
 <li>Core metadata, as required by Zenodo and generic data repositories, will be included in the set of metadata.</li>
-<li>Data provenance will be included in the paratext so that a data dependency graph can be constructed. The graph will enable the NFDI4SD’s registry to manage data dependencies and informative navigation through data repositories.</li>
+<li>Data provenance will be included in the paratext so that a data dependency graph can be constructed. The graph will enable the NFDI4SD’s registry to manage data dependencies and effectively navigate through data repositories.</li>
 <li>The Bavarian State Library in Munich, which is an important content provider for digital resources, has assigned metadata tags to more than 2.5 million digital objects; it also has a number of RDF Schema and XML Schema structured metafiles. These schemas will be used transparently to process our researchers’ research data. We intend to ensure data and metadata coherency.</li>
 <li>Meaningful data APIs will be built that take API features into consideration (see <a href="https://rollout.io/blog/json-ld-building-meaningful-data-apis/">API</a>).</li>
 <li>Flexible data mapping between user-specific terminological and data standards systems will be provided by the NFDI4SD’s machine learning tools.</li>
-<li>Well-documented data, their origin, data units, the definitions of terms and the networking of definition standards are recommended and will be assisted by the appropriate tools using research feedback from the specific research community.</li>
+<li>Well-documented data, their origin, data units, the definitions of terms and standards are recommended and will be assisted by the appropriate tools using research feedback from the specific research community.</li>
 <li>A public review on a new Data Documentation Initiative (DDI) product – the Structured Data Transformation Language (SDTL;<a href="https://ddialliance.org/announcement/public-review-structured-data-transformation-language-sdtl">Structured Data Transformation (SDTL)</a> – that addresses the issue of data provenance is currently taking place.<sup id="fnref:sdtl1"><a class="footnote-ref" href="#fn:sdtl1">4</a></sup> A proposal is is being drawn up.</li>
 </ul>
-<h1 id="nfdi4sd-standards-companion">NFDI4SD <em>Standards-Companion</em></h1>
+<h2>NFDI4SD <em>Standards-Companion</em></h2>
 <p>The proven and widely used services that include Zenodo, reference data services, programming languages services and ontologies presuppose a number of key global standards and norms for data use. A range of computational tools have been developed to help researchers choose an appropriate set of standards and ontologies for their work.</p>
 <p>A selection of widely used metadata standards, both general and domain specific, includes:</p>
 <ul>
@@ -773,14 +753,14 @@
 <li>Schema.org</li>
 </ul>
 <p>Researchers are not expected to get to grips with all these standards or to be able to judge their advantages and disadvantages.</p>
-<p>Rather, the individual disciplines need to develop or use their own specific terminologies, so that the research data distributed over various contexts of origin gradually acquire a conceptual vagueness, which creates difficulties when using simple terminology uncritically. Linked Open Data (LOD) therefore needs to go beyond the sole use of ontologies and move from the possibilities of machine learning to the tried and tested use of vague concepts. Mees, Thiery and Unold have convincingly pointed out use cases of provincial Roman archaeology and many others no subject. <sup id="fnref:33"><a class="footnote-ref" href="#fn:33">1</a></sup></p>
-<p>In order that researchers can use the metadata standards as a service, the NFDI4SD will develop a <em>Standards-Companion</em>. Similar to the Companion on Legal Standards, the <em>Standards Companion</em> will, through the use of machine learning, classify the registered research data according to the standards that are being followed and will directly generate an automated report on the standards used, their reference pages and additional literature via the Virtual research bench. Alternative concepts of standards will also be outlined. The Standards Companion will constantly update its own database and in this way will ensure that the research data are harmonised. The principal data sources for the Standards Companion are:</p>
+<p>Rather, the individual disciplines need to develop or use their own specific terminologies, so that the research data distributed over various contexts of origin gradually acquire a conceptual vagueness, which creates difficulties when using simple terminology uncritically. Mees, Thiery and Unold have convincingly pointed out cases of provincial Roman archaeology and many others to deal with vague concepts rather than taxonomy.<sup id="fnref:33"><a class="footnote-ref" href="#fn:33">1</a></sup> Linked Open Data (LOD) therefore needs to go beyond the sole use of ontologies and move from the possibilities of machine learning to the tried and tested use of vague concepts. </p>
+<p>In order that researchers can use the metadata standards as a service, the NFDI4SD will develop a <em>Standards-Companion</em>. Similar to a <em>Companion on Legal Standards</em>, which is also to be established by the NFDI4SD, the <em>Standards Companion</em> will, through the use of machine learning, classify the registered research data according to the standards that are being followed and will directly generate an automated report on the standards used, their reference pages and additional literature via the Virtual research bench. Alternative concepts of standards will also be outlined. The Standards Companion will constantly update its own database and in this way will ensure that the research data are harmonised. The principal data sources for the Standards Companion are:</p>
 <ul>
 <li>Formal models of the standards</li>
 <li>Labelled data for machine learning</li>
 </ul>
 <h2>Provenance</h2>
-<p>Data provenance will become an integral part of the research data’s paratext. Provenance information will be gathered to construct a dependency graph representing the dependencies that research data objects have on each other as described in either narrative accounts (publications) or analyses of computational notebooks. Each object must be assigned a unique identifier and a reference in a research publication in order that the dependencies between them can be established. The NFDI4SD’s registry will build up a large dependency graph for research data that will support the cataloguing and reuse of the research data.</p>
+<p>Data provenance will become an integral part of the research data’s paratext. Provenance information will be gathered to construct a dependency graph representing the dependencies that research data objects have on each other as described in the narrative of computational notebooks. Each object must be assigned a unique identifier and a reference in a research publication in order that the dependencies between them can be established. The NFDI4SD’s registry will build up a large dependency graph for research data that will support the cataloguing and reuse of the research data.</p>
 <div class="footnote">
 <hr />
 <ol>
